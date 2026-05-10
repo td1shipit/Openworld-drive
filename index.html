@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open World Drive</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <h1>Open World Drive</h1>
+    <p id="world"></p>
+
+    <h2>Multiplayer</h2>
+    <div id="multiplayer">
+      <div>
+        <h3>Create a game</h3>
+        <button id="create-game-btn">Create Game Code</button>
+        <p>Your game code: <span id="game-code">---</span></p>
+      </div>
+
+      <div style="margin-top: 10px;">
+        <h3>Join a game</h3>
+        <input id="join-code-input" placeholder="Enter game code">
+        <button id="join-game-btn">Join</button>
+        <p id="join-status"></p>
+      </div>
+    </div>
+
+    <h2>Locations</h2>
+    <ul id="locations"></ul>
+
+    <h2>Vehicles</h2>
+    <ul id="vehicles"></ul>
+
+    <h2>Bots</h2>
+    <ul id="bots"></ul>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
