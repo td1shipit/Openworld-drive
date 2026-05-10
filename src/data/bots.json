@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Driver Bot 1",
+    "vehicle": "City Cruiser",
+    "behavior": "wander"
+  },
+  {
+    "name": "Driver Bot 2",
+    "vehicle": "Volt Viper Motorbike",
+    "behavior": "wander"
+  },
+  {
+    "name": "Driver Bot 3",
+    "vehicle": "Shockrunner ATV",
+    "behavior": "wander"
+  }
+]
